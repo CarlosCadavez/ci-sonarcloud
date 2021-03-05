@@ -1,0 +1,9 @@
+name: ci-sonarcloud
+on: 
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  run-ci:
+    runs-on: ubuntu-latest
